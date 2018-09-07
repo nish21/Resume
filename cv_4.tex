@@ -1,0 +1,135 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+\linespread{0.8}
+\makeatletter
+\renewcommand{\document}{%
+  \ori@document
+  \centerline{{\Huge\bfseries Nishanth Hegde}\hfill%
+  \begin{minipage}{6cm}
+  \raggedleft
+  2700 Ellendale Pl, Apt. 307\\
+  (213) 572-9510\\
+  Email: nishanth@usc.edu\\ 
+  LinkedIn: nishanthhegde
+  \end{minipage}}\par
+}
+\makeatother
+\usepackage[left=0.5in,top=0.5in,right=0.35in,bottom=0.5in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf University of Southern California, Los Angeles, CA} \hfill {\em August 2018 - June 2020} 
+\\ MS in Computer Science (Data Science) \hfill { }  
+
+{\bf PES University, Bangalore, India} \hfill {\em Aug 2014 - May 2018} 
+\\ B. Tech in Computer Science \hfill {GPA: 9.05/10 }  
+
+%Minor in Linguistics \smallskip \\
+%Member of Eta Kappa Nu \\
+%Member of Upsilon Pi Epsilon \\
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Experience}
+
+\begin{rSubsection}{McAfee Software India Pvt. Ltd}{January 2018 - June 2018}{Undergrad Technical Intern}{Bangalore, India}
+\item Worked on Adaptive Threat Protection for Enterprise macOS \& Linux devices by enhancing features and testing.
+\item Fixed a release blocker bug related to C++ smart pointers and improved code coverage by 20\%. The software was released during my internship.
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Microsoft Innovation Lab, PES University}{May 2016 - May 2017}{Research Intern}{Bangalore, India}
+\item Developed a standalone real-time speaker recognition system. Prototyped in MATLAB and  in Python. 
+\item Arrived at a novel feature set 12 dimensions lesser than state-of-the-art models without significant loss in accuracy.
+\item Recruited new interns in my senior year and mentored teams working on machine learning.
+\end{rSubsection}
+
+\end{rSection}
+
+%--------------------------------------------------------------
+\begin{rSection}{Projects}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Blind Image Deconvolution}{}{}{}
+\item Headed a team of three people and worked on blur removal for blurred number plates in CCTV footages using Python, OpenCV and Tensorflow.
+\end{rSubsection}
+\begin{rSubsection}{Fast and Accurate Face Recognition}{}{}{}
+\item Formulated a novel pipeline for face recognition tackling issues with training speeds and accuracy. 
+\item Research paper was accepted for publication and oral presentation at Soft Computing for Problem Solving 2017.
+\end{rSubsection}
+\begin{rSubsection}{mlpack}{}{}{}
+\item Contributed to open source library for Fast \& scalable machine learning in C++.  
+\end{rSubsection}
+
+\begin{rSubsection}{Classifier Comparison for Prediction of Heart Diseases}{}{}{}
+\item Studied and reasoned the effectiveness of classifiers like SVM, KNN, etc for prediction of heart disease in R.
+\end{rSubsection}
+
+%------------------------------------------------
+\begin{rSubsection}{Graph Triangle counting algorithm for GPUs}{}{}{}
+\item Parallelized triangle counting algorithm using CUDA for 80\% faster execution on NVidia GPUs.
+\end{rSubsection}
+
+\begin{rSubsection}{News Aggregator and Crawler}{}{}{}
+\item Developed a website that displays personalized news feed controlled by RSS subscriptions and web crawling.
+\item Used HTML, Javascript, Bootstrap, MySQL, PHP, Python (BeautifulSoup).
+\end{rSubsection}
+\begin{rSubsection}{Online Video Game Distribution Platform}{}{}{}
+\item Designed and implemented a web platform for video game distribution. MySQL database with PHP backend.  
+\end{rSubsection}
+
+\begin{rSubsection}{Java Music Player with GUI}{}{}{}
+\item Programmed a music player with Java and Swing with playback controls and effectively handled race conditions.
+\end{rSubsection}
+\begin{rSubsection}{Two Pass Assembler}{}{}{}
+\item Completed a two pass assembler in C for a custom assembly level language in my freshman year.
+\end{rSubsection}
+
+\end{rSection}
+
+
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Skills}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Programming \& Scripting &  C++, C, Java, Python, MATLAB \\
+ML Stack & NumPy, OpenCV, Keras, Tensorflow \\
+Web Stack & HTML, CSS, JS, Bootsrap, PHP, MySQL \\
+Software \& Tools & CUDA, Git, SVN, Jira \\
+\end{tabular}
+
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
